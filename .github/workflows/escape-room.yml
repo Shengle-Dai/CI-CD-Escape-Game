@@ -1,5 +1,5 @@
 name: Escape Room Pipeline
-
+on: [push]
 jobs:
   build_test:
     runs-on: ubuntu-latest
